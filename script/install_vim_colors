@@ -1,0 +1,9 @@
+# Installing vim colors
+if test ! -f ~/.vim/colors/solarized.vim
+then
+  cd /tmp
+  git clone https://github.com/altercation/vim-colors-solarized.git
+  mkdir -p ~/.vim/colors
+  cd vim-colors-solarized/colors
+  mv solarized.vim ~/.vim/colors/
+fi
