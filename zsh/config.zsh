@@ -1,7 +1,7 @@
 source ~/.bashrc
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/hamzamuraj/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 #export ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
 #export ZSH=$HOME/.dotfiles/oh-my-zsh
 
@@ -30,7 +30,7 @@ DEFAULT_USER="hamzamuraj"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
- DISABLE_LS_COLORS="true"
+DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"

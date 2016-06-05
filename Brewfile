@@ -20,6 +20,7 @@ brew 'tree'
 brew 'wget'
 brew 'zsh'
 brew 'autoenv'
+brew 'powerline'
 
 cask '1password'
 cask 'atom'
