@@ -21,4 +21,10 @@ then
 
 fi
 
+BREW_BUNDLE_VERSION=$(brew bundle --version)
+if test $(which brew) && test -z $BREW_BUNDLE_VERSION
+then
+    echo " Installing Homebrew Bundle for you."
+    $HOME/.dotfiles/homebrew/install_bundle.sh
+fi
 exit 0
