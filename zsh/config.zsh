@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/hamzamuraj/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 #export ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
 #export ZSH=$HOME/.dotfiles/oh-my-zsh
 

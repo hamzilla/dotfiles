@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+pip install --upgrade pip
+pip install --user powerline-status
+
+# Fonts
+if [ -z "$(ls -l $HOME/Library/Fonts/ | grep -i 'Meslo LG M DZ Regular for Powerline.otf')" ]; then
+  cd /tmp
+  git clone https://github.com/powerline/fonts.git
+  cd fonts
+  ./install.sh
+else
+  echo "Powerline already installed"
+fi

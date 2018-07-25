@@ -1,0 +1,7 @@
+Install Theme to iterm2
+
+1. iterm2 -> Preferences -> Colors -> Load Presets -> Import -> locate iterm2-solarized-theme
+2. Go back to colors and select the "Solarized Dark" theme
+
+Install Fonts
+1. iterm2 -> Preferences -> Text -> Change Font -> Meslo LG M Regular (Regular AND Non-ASCII)
