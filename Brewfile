@@ -21,6 +21,7 @@ brew 'wget'
 brew 'zsh'
 brew 'autoenv'
 brew 'powerline'
+brew 'bash-completion'
 
 cask '1password'
 cask 'atom'
